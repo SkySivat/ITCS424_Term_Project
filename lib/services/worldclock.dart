@@ -30,7 +30,7 @@ class WorldClock {
 
       DateTime current = DateTime.parse(datetime);
 
-      if (current.hour > 6 && current.hour < 18) {
+      if (current.hour > 6 && current.hour < 19) {
         isDaytime = true;
       } else {
         isDaytime = false;
